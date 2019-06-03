@@ -1,0 +1,1 @@
+javascript:N="num=100"; R = /num=\d*/; if (R.exec(location.search)) location.search = location.search.replace(R, N); else location.search += "&" + N; void 0
